@@ -7,7 +7,7 @@ use Mpclarkson\Laravel\Freshdesk\FreshdeskFacade as Freshdesk;
 use Mpclarkson\Laravel\Freshdesk\FreshdeskServiceProvider;
 use Illuminate\Container\Container;
 
-abstract class FreshdeskServiceProviderTest extends \PHPUnit_Framework_TestCase
+abstract class FreshdeskServiceProviderTest extends \PHPUnit\Framework\TestCase
 {
 
     public function testServiceNameIsProvided()
